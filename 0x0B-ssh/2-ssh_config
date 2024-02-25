@@ -1,0 +1,9 @@
+# Configures an  ssh client to help connect connect to a server
+# without a password.
+Host *
+	SendEnv LANG LC_*
+	HashKnownHosts yes
+	GSSAPIAuthentication yes
+	GSSAPIDelegateCredentials no
+	IdentityFile ~/.ssh/school
+	PasswordAuthentication no
