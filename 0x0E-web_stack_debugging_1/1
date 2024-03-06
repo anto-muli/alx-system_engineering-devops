@@ -1,0 +1,2 @@
+./0-nginx_likes_port_80: line 3: $'\r': command not found
+Usage: nginx {start|stop|restart|reload|force-reload|status|configtest|rotate|upgrade}
