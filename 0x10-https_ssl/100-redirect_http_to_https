@@ -41,7 +41,7 @@ frontend antob-frontend
         default_backend antob-backend
 
 frontend antob-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/antob.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.antob.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend antob-backend
 
